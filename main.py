@@ -8,7 +8,6 @@ root.title("Textie")
 root.geometry("800x800")
 
 
-
 def open_file():
     file_path = filedialog.askopenfilename(
         filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")]
@@ -50,6 +49,12 @@ def proggraming_mode():
         bg="black"
     )
 
+def drake_mode():
+    text_area.config(
+        fg="white",
+        bg="white"
+    )
+
 
 
 
@@ -67,9 +72,10 @@ menubar.add_cascade(label="File", menu=bestand_menu)
 settings_menu = Menu(menubar, tearoff=0)
 settings_menu.add_command(label="Dark Mode", command=dark_mode)
 settings_menu.add_command(label="Light Mode", command=light_mode)
-settings_menu.add_separator()
 settings_menu.add_command(label="Proggraming Mode", command=proggraming_mode)
+settings_menu.add_command(label="Drake's mode", command=drake_mode)
 menubar.add_cascade(label="Settings", menu=settings_menu)
+
 
 
 
