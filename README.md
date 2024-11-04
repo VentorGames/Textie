@@ -1,7 +1,21 @@
-Textie v 0.6
+Texte v 0.6
 
-how to run download the zip make a folder (named Textie) and drag from the zip main.py into thate folder go to terminal and type: cd /path/to/file/Textie
+First downlaod the zip
 
-if you didn't install python already go to https://www.python.org/downloads/
+if you didn't do it already download python3: https://www.python.org/downloads/
 
-now run it withe: python main.py
+Open on Linux and Macos
+cd ~/Downloads
+unzip Textie-main.zip
+cd Textie-main
+
+Open on Windows
+cd C:\Users\UwNaam\Downloads
+expand Textie-main.zip -F:* C:\Users\UwNaam\Downloads\Textie-main
+cd Textie-main
+
+Then run the program using
+python3 textie.py
+
+
+Enjoy
