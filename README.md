@@ -1,4 +1,4 @@
-Textie v 0.01 beta
+Textie v 0.5
 
 how to run download the zip make a folder (named Textie) and drag from the zip main.py into thate folder go to terminal and type: cd /path/to/file/Textie
 
