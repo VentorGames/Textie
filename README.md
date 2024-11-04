@@ -15,7 +15,7 @@ expand Textie-main.zip -F:* C:\Users\UwNaam\Downloads\Textie-main then do:
 cd Textie-main
 
 ## Then run the program using
-python3 textie.py
+python3 main.py
 
 
 Enjoy
