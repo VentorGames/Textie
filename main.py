@@ -44,6 +44,15 @@ def light_mode():
         bg="white"
     )
 
+def proggraming_mode():
+    text_area.config(
+        fg="white",
+        bg="black"
+    )
+
+
+
+
 text_area = Text(root, wrap=tk.WORD)
 text_area.pack(expand=True, fill="both", padx=10, pady=10)
 
@@ -58,6 +67,8 @@ menubar.add_cascade(label="File", menu=bestand_menu)
 settings_menu = Menu(menubar, tearoff=0)
 settings_menu.add_command(label="Dark Mode", command=dark_mode)
 settings_menu.add_command(label="Light Mode", command=light_mode)
+settings_menu.add_separator()
+settings_menu.add_command(label="Proggraming Mode", command=proggraming_mode)
 menubar.add_cascade(label="Settings", menu=settings_menu)
 
 
